@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Amsterdam - Ayuda</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body><div id="cuerpo">
+<!-- HEADER -->
+	<nav>
+		<div class="naranja">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="informacion.html">Información</a></li>
+				<li><a href="cultura.html">Cultura</a></li>
+				<li><a href="formulario.html">Ayuda</a></li>
+			</ul>
+		</div>
+	</nav>
+
+<!-- FORMULARIO -->
+	<main id="fondo-formulario">
+		<header>
+			<h1>Formulario de Ayuda en Amsterdam</h1>
+			<p>Por favor completa los datos para que podamos ayudarte</p>
+		</header>
+	
+		<form action="gracias.html" method="post" enctype="multipart/form-data" id="formu" class="blanco">
+			<div class="formulario">
+				<label>Nombre y Apellido:</label>
+				<input type="text" name="nombre" placeholder="Juan Gómez">
+			</div>
+			<div class="formulario">
+				<label>Sexo:</label>
+					<input type="radio" name="sexo" value="femenino"> <span>Femenino</span>
+					<input type="radio" name="sexo" value="masculino"> <span>Masculino</span>
+					<input type="radio" name="sexo" value="otre"> <span>Otre</span>
+			</div>
+			<div class="formulario">
+				<label>Fecha de nacimiento:</label>
+				<input type="date" name="nacimiento" min="1910-01-01" max="2020-06-19">
+			</div>
+			<div class="formulario">
+				<label>Cuentanos tu problema</label>
+				<textarea name="comentar" rows="9" cols="37" placeholder="Comenta lo ocurrido aquí"></textarea>
+			</div>
+			<div class="formulario">
+				<label>Dejanos un correo para poder responderte</label>
+				<input id="ayuda-mail" type="email" name="mail" placeholder="Escribe tu email aquí">
+			</div>
+			<div class="formulario">
+				<label>¿Quiere recibir noticias de la ciudad?</label>
+				<input type="checkbox" name="noticias" checked="" value="si">
+			</div>
+			<input id="enviar" type="submit" value="Enviar">
+		</form>
+	</main>
+<!-- FOOTER -->
+<footer>
+		<div class="naranja">
+			<iframe  id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77979.83662226105!2d4.8339212095849975!3d52.35464494725618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2zw4Ftc3RlcmRhbSwgUGHDrXNlcyBCYWpvcw!5e0!3m2!1ses-419!2sar!4v1591375383644!5m2!1ses-419!2sar" width="252" height="204" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<div class="ayuda">
+				<h2>Contacto</h2>
+				<ul id="redes">
+					<li>(0031) 070-311 84 11</li>
+					<li><a href="mailto:Oficinadeturismo@amsterdamES.com">Oficinadeturismo@amsterdamES.com</a></li>
+					<li class="redsocial">Seguínos en Instagram</li>
+					<li class="redsocial">Seguínos en Twitter</li>
+					<li class="redsocial">Seguínos en Facebook</li>
+				</ul>
+			</div>
+			<div class="ayuda">
+				<h2>Información</h2>
+				<ul id="obligatorio">
+					<li>Nombre: Julián</li>
+					<li>Apellido: López Russo</li>
+					<li>Docente: Mabel García</li>
+					<li>Esta página es una entrega para la Escuela Da Vinci</li>
+					<li>Año: 2020</li>
+				</ul>
+			</div>
+			<div class="ayuda">
+				<h2>Links Serviciales</h2>
+				<ul>
+					<li>Servicios</li>
+					<li>Soporte</li>
+					<li>Políticas de privacidad</li>
+					<li>Términos y condiciones</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div></body>
+</html>
+

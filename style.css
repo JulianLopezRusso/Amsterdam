@@ -1,0 +1,585 @@
+/* HOME */
+
+body {
+	margin-top: 0px;
+}
+
+#cuerpo {
+	width: 1288px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+p em, p strong {
+	font-style: normal;
+	font-weight: normal;
+}
+
+abbr {
+	text-decoration: none;
+}
+
+.naranja {
+	background-color: #FC602A;
+	background-image: url(Recursos/Background/logo.png);
+	background-repeat: no-repeat;
+	background-position: 163px 12px;
+}
+
+section {
+	margin: 0px;
+}
+
+nav p, nav li, nav ul, .ayuda {
+	display: inline-block;
+	color: white;
+}
+
+#tarjetas {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 46px;
+}
+
+nav ul {
+	margin-left: 298px;
+	margin-top: 22px;
+	margin-bottom: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover, footer li:hover, footer a:hover {
+	color: #000000;
+	cursor: pointer;
+}
+
+nav li {
+	margin-left: 62px;
+	font-size: 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.centro {
+	text-align: center;
+}
+
+#medio{
+	height: 596px;
+	background: url(Recursos/Background/trabajadora.png) left bottom no-repeat, 
+	url(Recursos/Background/visita-amsterdam.jpg) no-repeat;
+}
+
+#medio h1 {
+	font-size: 62.8px;
+	padding-top: 205px;
+	margin-top: 0px;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 15px #000000;
+}
+
+#intro {
+	height: 318px;
+	
+}
+
+#medio p {
+	padding-left: 510px;
+	padding-right: 200px;
+	padding-top: 70px;
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+#veryhacer {
+	height: 320px;
+	background-image: url(Recursos/Background/veryhacer.jpg);
+}
+
+#veryhacer h2 {
+	font-size: 62.8px;
+	color: white;
+	padding-top: 130px;
+	margin-top: 0px;
+	text-shadow: 2px 2px 15px #000000;
+}
+
+#veryhacer p {
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.tarjeta {
+	display: inline-block;
+	width: 302px;
+	height: 418px;
+	vertical-align: top;
+	margin-left: 7px;
+	box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+	text-align: center;
+}
+
+.tarjeta h3 {
+	color: #ff1919;
+	font-size: 30px;
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.tarjeta p {
+	font-size: 16px;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-top: 0px;
+}
+
+#newsletter {
+	margin-top: 60px;
+	margin-bottom: 34px;
+}
+
+#newsletter h2 {
+	font-size: 30px;
+}
+
+#mail {
+	width: 461px;
+	border-radius: 8px;
+	height: 24px;
+}
+
+#subscribir {
+	width: 140px;
+	height: 30px;
+	border-radius: 8px;
+	background-color: #ff1919;
+	color: white;
+}
+
+#redes {
+	background-image: url(Recursos/Background/redessociales.png);
+	background-repeat: no-repeat;
+	background-position: 0px 78px;
+	height: 170px;
+}
+
+#mapa {
+	margin: 56px 0px 14px 163px;
+}
+
+.ayuda {
+	vertical-align: top;
+	margin-left: 30px;
+}
+
+.ayuda h2 {
+	margin-bottom: 5px;
+}
+
+.ayuda li {
+	padding-top: 15px;
+}
+
+.ayuda ul {
+	padding-left: 0px;
+	margin-top: 5px;
+}
+
+.redsocial {
+	margin-left: 28px;
+}
+
+
+/* PARTE DEL FORMULARIO */
+
+#fondo-formulario {
+	background: url(Recursos/Background/Formulario.jpg) 
+	no-repeat center;
+	background-size: cover; 
+}
+
+#fondo-formulario h1 {
+	margin-top: 0px;
+	padding-top: 15px;
+}
+
+#fondo-formulario h1, #fondo-formulario p {
+	color: white;
+	text-shadow: 0px 0px 6px #000000;
+	text-align: center;
+}
+
+#fondo-formulario p {
+	font-size: 20px;
+}
+
+.blanco {
+	background-color: white;
+}
+
+#formu {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formulario {
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.formulario label {
+	vertical-align: top;
+	font-size: 20px;
+}
+
+.formulario input, .formulario textarea {
+	margin-left: 15px;
+	resize: none;
+}
+
+#ayuda-mail {
+	width: 550px;
+	margin-top: 10px;
+	margin-left: 0px;
+}
+
+#enviar {
+	width: 550px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+#obligatorio {
+	width: 200px;
+}
+
+/* PARTE DE INFO */
+
+#info {
+	height: 318px;
+	background: url(Recursos/Background/Informacion.jpg);
+}
+
+#info h1 {
+	color: white;
+	text-shadow: 0px 0px 6px #000000;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 60px;
+	font-size: 60px;
+}
+
+.lectura {
+	background-color: rgb(255, 255, 255, 0.7);
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+}
+
+#history {
+	height: 200px;
+	text-align: center;
+	color: white;
+	text-shadow: 0px 0px 10px #000000;
+	font-size: 40px;
+	background: url(Recursos/Background/Historia.jpg)
+	no-repeat;
+}
+
+#history h2 {
+	margin-top: 0px;
+	padding-top: 80px;
+}
+
+#noticias {
+	height: 200px;
+	text-align: center;
+	color: white;
+	text-shadow: 0px 0px 10px #000000;
+	font-size: 40px;
+	background: url(Recursos/Background/Noticias.jpg)
+	no-repeat;
+	margin-top: 20px;
+}
+
+#noticias h2 {
+	margin-top: 0px;
+	padding-top: 65px;
+}
+
+.historia p {
+	display: inline-block;
+	width: 400px;
+	font-size: 18px;
+	vertical-align: top;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 0px;
+}
+
+.historia {
+	box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+	margin-bottom: 50px;
+}
+
+.historia h3 {
+	text-align: center;
+	font-size: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FC602A;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.historia img {
+	margin: 5px;
+}
+
+/* PARDE DE CULTURA */
+
+#cultura {
+	height: 356px;
+	background-image: url(Recursos/Background/Cultura.jpg);
+	color: white;
+	text-align: center;
+}
+
+#cultura h1 {
+	margin-top: 0px;
+	padding-top: 150px;
+	font-size: 90px;
+	text-shadow: 0px 0px 12px #000000;
+}
+
+#lista {
+	height: 220px;
+	background-image: url(Recursos/Background/lista.jpg);
+	background-repeat: no-repeat;
+	padding-left: 57px;
+}
+
+ol {
+	margin-top: 0px;
+}
+
+#lista li {
+	display: inline-block;
+	color: white;
+	text-shadow: 0px 0px 6px #000000;
+	background-color: rgb(252, 96, 42, 0.5); 
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	box-shadow: 0px 0px 6px #ffffff;
+	margin-left: 40px;
+	font-size: 20px;
+}
+
+#lista li:hover {
+	background-color: rgb(252, 96, 42);
+}
+
+#lista a {
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+}
+
+#lista h2 {
+	margin-top: 0px;
+	padding-top: 50px;
+	font-size: 40px;
+	text-shadow: 0px 0px 12px #000000;
+	color: white;
+	text-align: center;
+}
+
+#actividades {
+	background-image: url(Recursos/Background/culturacirculo.png);
+	background-repeat: no-repeat;
+}
+
+#introCultura {
+	color: white;
+	font-size: 22px;
+	padding-top: 50px;
+	padding-left: 270px;
+	margin-top: 0px;
+	margin-bottom: 56px;
+	text-align: center;
+	display: inline-block;
+	width: 663px;
+	height: 194px;
+}
+
+.card {
+	width: 460px;
+	height: 221px;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.75);
+	display: inline-block;
+	background-color: white;
+	vertical-align: top;
+}
+
+.floatleft {
+	float: left;
+}
+
+.card h2{
+	display: inline-block;
+	text-align: center;
+	width: 200px;
+	margin: 10px;
+	color: #FC602A;
+	height: 58px;
+}
+
+.card p {
+	display: inline-block;
+	text-align: center;
+	width: 200px;
+	height: 96px;
+	margin: 0px 10px 10px 10px;
+	font-size: 14px;
+}
+
+.floatright {
+	float: right;
+}
+
+#museoVanGogh, #mercadoFlores {
+	margin: 0px 17px 21px 130px;
+}
+
+.button {
+	width: 130px;
+	height: 23px;
+	background-color: #FC602A;
+	margin: 0px 0px 0px 45px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.button span:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#botonMalo {
+	margin-left: 284px;
+}
+
+#botonMalo2 {
+	margin-left: 284px;
+}
+
+.button span {
+	color: white;
+}
+
+#barrioRojo {
+	width: 940px;
+	height: 288px;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.75);
+	display: inline-block;
+	background-color: white;
+	margin: 0px 20px 21px 130px;
+}
+
+#barrioRojo p {
+	display: inline-block;
+	width: 500px;
+	height: 166px;
+	margin: 0px 20px 20px 20px;
+	font-size: 14px;
+}
+
+#barrioRojo h2 {
+	color: #ff1919;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 163px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 36px;
+}
+
+#barrioRojo div {
+	float: left
+}
+
+.buttonRojo {
+	width: 470px;
+	height: 24px;
+	background-color: #ff1919;
+	margin: 0px 0px 0px 45px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.buttonRojo span {
+	color: white;
+}
+
+.buttonRojo span:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.video {
+	color: white;
+	background-color: #FC602A;
+	margin-bottom: 0px;
+	border-radius: 440px 440px 0px 0px
+}
+
+.video span {
+	display: inline-block;
+	width: 940px;
+	text-align: center;
+	margin-left: 130px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.video iframe {
+	margin: 10px 0px 10px 318px;
+}
+
+/* GRACIAS */
+#gracias {
+	height: 600px;
+	background-image: url(Recursos/Background/gracias.jpg);
+	text-align: center;
+}
+
+#gracias  h1 {
+	font-size: 110px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-top: 80px;
+}
+
+#gracias p {
+	display: inline-block;
+	width: 850px;
+	margin-top: 0px;
+	font-size: 50px;
+}
